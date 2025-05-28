@@ -1,5 +1,6 @@
 import Dummytext from "./components/dummy text/Dummytext";
 import Navbar from "./components/navbar/Navbar";
+import Services from "./components/services/Services";
 import SpiderSection from "./components/spiderman/SpiderSection";
 import TrendingGames from "./components/TrendingGames/TrendingGames";
 
@@ -12,6 +13,7 @@ function App() {
         <Dummytext />
         <SpiderSection />
       </div>
+      <Services/>
     </>
   );
 }
