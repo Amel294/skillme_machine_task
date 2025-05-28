@@ -20,20 +20,12 @@ export default function RecentProjects() {
       </div>
 
       <div className="grid grid-cols-1  md:grid-cols-24 gap-6 mb-10">
-        {images.slice(0, 3).map((src, index) => (
-          <div key={index} className="rounded-xl overflow-hidden col-span-8">
-            <img
-              src={src}
-              alt={`Project ${index + 1}`}
-              className="w-full h-56 md:h-96 object-cover"
-            />
-          </div>
-        ))}
-        {images.slice(3).map((src, index) => (
+        
+        {images.map((src, index) => (
           <div
             key={index}
             className={`rounded-xl overflow-hidden col-span-8 ${
-              index === 0 ? "md:col-span-6" : "md:col-span-9"
+              index < 3 ? "md:col-span-8" : index === 3 ? "md:col-span-6" : "md:col-span-9"
             }`}
           >
             <img
