@@ -3,6 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import RecentProjects from "./components/recentProjects/RecentProjects";
 import Services from "./components/services/Services";
 import SpiderSection from "./components/spiderman/SpiderSection";
+import SubscribeSection from "./components/subscribeSection/SubscribeSection";
 import TrendingGames from "./components/TrendingGames/TrendingGames";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       </div>
       <Services/>
       <RecentProjects/>
+      <SubscribeSection/>
     </>
   );
 }
