@@ -14,7 +14,7 @@ function App() {
       <div className="z-100">
         <Hero />
       </div>
-      <div style={{ background: "var(--bg-app-gradient)" }} className="px-20">
+      <div style={{ background: "var(--bg-app-gradient)" }} className="px-5 md:px-40">
         <TrendingGames />
         <Dummytext />
         <SpiderSection />

@@ -7,7 +7,7 @@ const Hero = () => {
       <Navbar />
 
       {/* Controller positioned inside Hero and scrolls with content */}
-      <div className="absolute top-0 left-64/100 transform -translate-x-1/2 z-1001 w-full flex justify-center">
+      <div className="absolute top-0 left-64/100 transform -translate-x-1/2 z-1001 w-full md:flex justify-center hidden">
         <img
           src={hero}
           alt="Game Controller"
@@ -16,7 +16,7 @@ const Hero = () => {
       </div>
 
       {/* Main content, layered above controller */}
-      <div className="relative z-10 max-w-[1400px]  px-40 pt-60 flex flex-col-reverse lg:flex-row items-center justify-between">
+      <div className="relative z-10 max-w-[1400px]  px-5 md:px-40 pt-30 md:pt-60 flex flex-col-reverse lg:flex-row items-center justify-between">
         {/* Left text content */}
         <div className="lg:w-1/2 text-center lg:text-left">
           <h4 className="text-orange-500 text-lg font-semibold mb-4">

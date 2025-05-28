@@ -2,7 +2,7 @@ import spider from "../../assets/spider/spider.png";
 
 const SpiderSection = () => {
   return (
-    <section className="text-white py-16 px-5 md:px-20">
+    <section className="text-white py-16 px-5 ">
       {/* Text Section */}
       <div className="space-y-4 mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold">Lorem Ipsum</h1>
