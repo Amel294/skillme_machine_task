@@ -8,7 +8,7 @@ import p6 from "../../assets/projects/p6.png";
 const images = [p1, p2, p3, p4, p5, p6];
 export default function RecentProjects() {
   return (
-    <section className="bg-black text-white py-16 px-4 md:px-20">
+    <section className=" text-white py-16 px-4 md:px-20">
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Our Recent Projects

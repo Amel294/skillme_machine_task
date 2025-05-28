@@ -15,16 +15,16 @@ function classNames(...classes: string[]) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-black text-white">
+    <Disclosure as="nav" className="bg-black text-white fixed top-0 w-full z-1000">
       {({ open }) => (
         <>
-          <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="m mx-auto px-4 sm:px-6 lg:px-20">
             <div className="flex justify-between items-center h-20">
               {/* Logo */}
               <div className="flex-shrink-0 text-2xl font-extrabold">LOGO</div>
 
               {/* Desktop menu */}
-              <div className="hidden md:flex md:items-center md:space-x-10">
+              <div className="hidden md:flex md:items-center md:space-x-36">
                 {navigation.map((item) => (
                   <a
                     key={item.name}

@@ -1,5 +1,6 @@
 import Dummytext from "./components/dummy text/Dummytext";
 import Footer from "./components/footer/Footer";
+import Hero from "./components/hero-section/Hero";
 import Navbar from "./components/navbar/Navbar";
 import RecentProjects from "./components/recentProjects/RecentProjects";
 import Services from "./components/services/Services";
@@ -10,16 +11,20 @@ import TrendingGames from "./components/TrendingGames/TrendingGames";
 function App() {
   return (
     <>
-      <Navbar />
-      <div style={{ background: 'var(--bg-app-gradient)' }}>
+      <div className="z-100">
+        <Hero />
+      </div>
+      <div style={{ background: "var(--bg-app-gradient)" }} className="px-20">
         <TrendingGames />
         <Dummytext />
         <SpiderSection />
       </div>
-      <Services/>
-      <RecentProjects/>
-      <SubscribeSection/>
-      <Footer/>
+      <Services />
+      <div style={{ background: "var(--bg-app-gradient)" }} className="px-20">
+        <RecentProjects />
+        <SubscribeSection />
+      </div>
+      <Footer />
     </>
   );
 }
