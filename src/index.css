@@ -2,6 +2,7 @@
 @theme {
   --bg-app-gradient: linear-gradient(180deg, #000000 0%, #000000 50% ,#4A2800 100%);
 }
+
 body {
   background-color: black;
 }
