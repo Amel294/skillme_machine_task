@@ -29,7 +29,7 @@ export default function SubscriptionBlock() {
             <input
               type="email"
               placeholder="Enter email address"
-              className="rounded-l-md px-4 py-2 text-black focus:outline-none w-full md:w-72 opacity-40"
+              className="rounded-l-md px-4 py-2 text-black focus:outline-none w-full md:w-72 opacity-90"
             />
             <button
               type="submit"

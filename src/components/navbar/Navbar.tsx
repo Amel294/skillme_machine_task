@@ -1,5 +1,3 @@
-// components/Navbar.tsx
-"use client";
 
 import { Disclosure, DisclosurePanel } from "@headlessui/react";
 import { Bars3BottomLeftIcon, XMarkIcon } from "@heroicons/react/24/outline";

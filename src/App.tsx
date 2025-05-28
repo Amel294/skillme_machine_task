@@ -1,4 +1,5 @@
 import Dummytext from "./components/dummy text/Dummytext";
+import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import RecentProjects from "./components/recentProjects/RecentProjects";
 import Services from "./components/services/Services";
@@ -18,6 +19,7 @@ function App() {
       <Services/>
       <RecentProjects/>
       <SubscribeSection/>
+      <Footer/>
     </>
   );
 }
