@@ -8,7 +8,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white px-5 md:px-20 py-16 space-y-12">
+    <footer className="bg-black text-white  pt-16 pb-8 space-y-12">
       {/* Top Section */}
       <div className=" mx-auto px-5 py-14 grid grid-cols-1 md:grid-cols-4 gap-10 border-b-1  border-white">
         {/* Logo and Description */}

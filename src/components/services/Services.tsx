@@ -20,7 +20,7 @@ const services = [
 export default function Services() {
   return (
     <section
-      className="relative text-white py-16 px-5 md:px-20 bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center"
+      className="relative text-white py-16  md:px-20 bg-cover bg-center bg-no-repeat min-h-screen flex items-center justify-center"
       style={{ backgroundImage: `url(${serviceBg})` }}
     >
       <div className="absolute inset-0 bg-black opacity-80"></div>

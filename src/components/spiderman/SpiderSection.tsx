@@ -2,10 +2,10 @@ import spider from "../../assets/spider/spider.png";
 
 const SpiderSection = () => {
   return (
-    <section className="text-white py-16 px-5 ">
+    <section className="text-white py-16 ">
       {/* Text Section */}
       <div className="space-y-4 mb-10">
-        <h1 className="text-3xl sm:text-4xl font-bold">Lorem Ipsum</h1>
+        <h1 className="text-2xl sm:text-3xl font-semibold">Lorem Ipsum</h1>
         <p className="text-lg text-gray-300 md:max-w-1/3 sm:w-full">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -31,7 +31,7 @@ const SpiderSection = () => {
         <img
           src={spider}
           alt="Hero Image"
-          className="rounded-xl shadow-lg w-full max-h-[530px] object-cover z-11"
+          className="rounded-xl shadow-lg w-full max-h-[645px] object-cover z-11"
         />
       </div>
     </section>

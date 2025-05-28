@@ -29,15 +29,15 @@ const games = [
 
 export default function TrendingGames() {
   return (
-    <section className=" text-white py-10 px-5 ">
+    <section className=" text-white py-10 ">
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4">
-        <h2 className="text-xl font-semibold">Currently Trending Games</h2>
-        <button className="bg-gray-800 hover:bg-gray-700 text-sm px-4 py-2 rounded">
+        <h2 className="text-2xl font-bold">Currently Trending Games</h2>
+        <button className="bg-gray-800 hover:bg-gray-700 text-sm font-semibold px-4 py-2 rounded">
           SEE ALL
         </button>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 px-2">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 px-2 font-bold">
         {games.map((game) => (
           <div key={game.id} className="text-center space-y-2">
             <img
@@ -46,7 +46,7 @@ export default function TrendingGames() {
               className="rounded-xl w-full aspect-square object-cover"
             />
 
-            <div className="mt-2 flex items-center justify-center gap-2 text-sm mb-2">
+            <div className="mt-2 flex items-center justify-center gap-2 text-md mb-2">
               <FireIcon className="w-4 h-4 text-white" />
               <span>{game.followers} Followers</span>
             </div>
