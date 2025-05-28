@@ -7,7 +7,7 @@ const Hero = () => {
       <Navbar />
 
       {/* Controller positioned inside Hero and scrolls with content */}
-      <div className="absolute top-0 left-64/100 md:hidden transform -translate-x-1/2 z-1001 w-full md:flex justify-center hidden">
+      <div className="absolute top-0 left-64/100 md:hidden transform -translate-x-1/2 z-1001 w-full lg:flex justify-center hidden">
         <img
           src={hero}
           alt="Game Controller"

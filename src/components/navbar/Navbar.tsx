@@ -24,7 +24,7 @@ export default function Navbar() {
               <div className="flex-shrink-0 text-2xl font-extrabold">LOGO</div>
 
               {/* Desktop menu */}
-              <div className="hidden md:flex md:items-center md:space-x-36">
+              <div className="hidden md:flex md:items-center lg:space-x-20 md:space-x-16">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
