@@ -37,7 +37,7 @@ export default function TrendingGames() {
         </button>
       </div>
 
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-10 px-2">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 px-2">
         {games.map((game) => (
           <div key={game.id} className="text-center space-y-2">
             <img
