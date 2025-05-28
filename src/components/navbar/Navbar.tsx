@@ -21,7 +21,9 @@ export default function Navbar() {
           <div className="bg-black text-white">
             <div className="mx-auto px-4 sm:px-6 lg:px-20">
               <div className="flex justify-between items-center h-20 relative z-[1001]">
-                <div className="flex-shrink-0 text-2xl font-extrabold">LOGO</div>
+                <div className="flex-shrink-0 text-2xl font-extrabold">
+                  LOGO
+                </div>
 
                 <div className="hidden md:flex md:items-center lg:space-x-20 md:space-x-16">
                   {navigation.map((item) => (
@@ -37,7 +39,22 @@ export default function Navbar() {
                     >
                       {item.name}
                       {item.current && (
-                        <span className="absolute left-1/2 -bottom-1 transform -translate-x-1/2 w-5 h-1 bg-orange-500 rounded-full"></span>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="39"
+                          height="4"
+                          viewBox="0 0 39 4"
+                          fill="none"
+                        >
+                          <path
+                            d="M0 2C0 0.895431 0.89543 0 2 0H29C30.1046 0 31 0.895431 31 2C31 3.10457 30.1046 4 29 4H2C0.89543 4 0 3.10457 0 2Z"
+                            fill="#DC7000"
+                          />
+                          <path
+                            d="M34 2C34 0.895431 34.8954 0 36 0H37C38.1046 0 39 0.895431 39 2C39 3.10457 38.1046 4 37 4H36C34.8954 4 34 3.10457 34 2Z"
+                            fill="#DC7000"
+                          />
+                        </svg>
                       )}
                     </a>
                   ))}
@@ -56,7 +73,10 @@ export default function Navbar() {
                     {open ? (
                       <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                     ) : (
-                      <Bars3BottomLeftIcon className="block h-6 w-6" aria-hidden="true" />
+                      <Bars3BottomLeftIcon
+                        className="block h-6 w-6"
+                        aria-hidden="true"
+                      />
                     )}
                   </Disclosure.Button>
                 </div>
