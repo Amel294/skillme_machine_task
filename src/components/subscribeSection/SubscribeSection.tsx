@@ -12,7 +12,7 @@ export default function SubscriptionBlock() {
       </div>
 
       {/* Subscription Card */}
-      <div className="bg-[#1A130C] rounded-xl mx-auto p-6 md:p-10 shadow-md w-full max-w-5xl">
+      <div className="bg-[#1A130C] rounded-xl mx-auto p-6 md:p-10 shadow-md w-full ">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           {/* Text Section */}
           <div className="w-full md:w-1/2">
