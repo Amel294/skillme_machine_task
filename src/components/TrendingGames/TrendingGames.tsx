@@ -29,7 +29,7 @@ const games = [
 
 export default function TrendingGames() {
   return (
-    <section className="bg-black text-white py-10 px-5 md:px-20">
+    <section className=" text-white py-10 px-5 md:px-20">
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center mb-6 gap-4">
         <h2 className="text-xl font-semibold">Currently Trending Games</h2>
         <button className="bg-gray-800 hover:bg-gray-700 text-sm px-4 py-2 rounded">
